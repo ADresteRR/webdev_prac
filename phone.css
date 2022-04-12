@@ -1,0 +1,89 @@
+body{
+    margin:0;
+    padding:0;
+}
+/* -----navigation--- */
+#navbar
+{
+    /* flex-wrap:wrap; */
+    flex-direction: column;
+    
+}
+#navbar a{
+    font-size:15px;
+}
+
+
+
+
+
+/* --home-- */
+#home{
+   height: 450px;
+   padding:5px 10px;
+   
+}
+#home p{
+    font-size:14px;
+}
+#home::before{
+    height:480px;
+}
+
+
+/* ---services-section---- */
+#services{
+flex-direction:column;
+padding:3px auto;
+/* flex-wrap: wrap; */
+
+
+}
+.services-container h1{
+    /* border:1px solid black; */
+    margin-bottom:0px;
+}
+#services .box{
+   margin-top:0;
+   margin-bottom:20px;
+}
+
+
+
+/* ----client--- */
+#clients{
+    overflow: hidden;
+}
+#client-item{
+    width:120px;
+}
+#client-item img
+{
+    width:100%;
+}
+
+
+
+
+/* ---contact us---- */
+#contact-box{
+    /* border:1px solid white; */
+}
+#contact-box form{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+/* --utility-class--- */
+.h-primary{
+      font-size:35px;
+}
+
